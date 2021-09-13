@@ -1,7 +1,9 @@
-pacakge main
+package main
 
+// Interface say allows 
 import (
 	"fmt"
+	
 )
 
 type person struct{
@@ -12,6 +14,10 @@ type person struct{
 type secretagent struct{
 	person
 	ltk bool
+}
+
+type human interface {
+	speak()
 }
 
 func speak (secretagent)  {
