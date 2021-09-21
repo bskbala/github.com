@@ -23,4 +23,11 @@ func main ()  {
 	if err !=nil {
 		  fmt.Println(err)
 	}
+
+	fmt.Println("\nall of data",people)
+
+	for i,v :=range people {
+		fmt.Println("\n Person Number" ,i)
+		fmt.Println(v.First, v.last, v.age)
+	}
 }
