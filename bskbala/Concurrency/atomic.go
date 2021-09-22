@@ -7,6 +7,8 @@ import (
 	"sync/atomic"
 )
 
+//61432909876 ashu austrial
+
 func main() {
 	fmt.Println("CPUs:", runtime.NumCPU())
 	fmt.Println("Goroutines:", runtime.NumGoroutine())
